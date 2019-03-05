@@ -20,11 +20,21 @@ import React, { Component } from 'react'
         <form>
           <div>
             <label>Number 1  </label>
-            <input/>
+            <input 
+            type="text"
+            placeholder="type number"
+            value={input1}
+            name="input1"
+            onChange={this.onChangeBtn}/>
             </div>
             <div>
             <label>Number 2 </label>
-            <input/>
+            <input
+            type="text"
+            placeholder="type number"
+            value={input2}
+            name="input2"
+            onChange={this.onChangeBtn}/>
             </div>
             <div>
               <button> + </button>
