@@ -1,16 +1,26 @@
 import React, { Component } from 'react'
 
  class Calculator extends Component {
+   constructor(props) {
+     super(props)
+   
+     this.state = {
+        title : "React basic calculator",
+     }
+   }
+   
   render() {
+    const {title}=this.state
     return (
       <div>
+        <h1>{title}</h1>
         <form>
           <div>
-            <label>Number 1 : </label>
+            <label>Number 1  </label>
             <input/>
             </div>
             <div>
-            <label>Number 2 :</label>
+            <label>Number 2 </label>
             <input/>
             </div>
             <div>
