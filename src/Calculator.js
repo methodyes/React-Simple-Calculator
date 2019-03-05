@@ -20,24 +20,27 @@ import React, { Component } from 'react'
    add=(e)=>{
     e.preventDefault();
     const {input1,input2}=this.state
+    this.setState({
+      result : (parseInt(input1)+parseInt(input2))
+    })
    }
-   sub=()=>{
+   sub=(e)=>{
     e.preventDefault();
     const {input1,input2}=this.state
    }
-   mul=()=>{
+   mul=(e)=>{
     e.preventDefault();
     const {input1,input2}=this.state
   }
-  div=()=>{
+  div=(e)=>{
     e.preventDefault(); 
     const {input1,input2}=this.state
   }
-  mod=()=>{
+  mod=(e)=>{
     e.preventDefault();
     const {input1,input2}=this.state
   }
-  clr=()=>{
+  clr=(e)=>{
     e.preventDefault(); 
     const {input1,input2}=this.state
   }
