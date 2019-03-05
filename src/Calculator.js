@@ -43,12 +43,12 @@ import React, { Component } from 'react'
             onChange={this.onChangeBtn}/>
             </div>
             <div>
-              <button> + </button>
-              <button> - </button>
-              <button> * </button>
-              <button> / </button>
-              <button> % </button>
-              <button> C </button>
+              <button onClick={this.add}> + </button>
+              <button onClick={this.sub}> - </button>
+              <button onClick={this.mul}> * </button>
+              <button onClick={this.div}> / </button>
+              <button onClick={this.mod}> % </button>
+              <button onClick={this.clr}> C </button>
             </div>
             <div>
               <h2></h2>
