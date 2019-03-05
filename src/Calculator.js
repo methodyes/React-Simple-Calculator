@@ -19,21 +19,27 @@ import React, { Component } from 'react'
    }
    add=(e)=>{
     e.preventDefault();
+    const {input1,input2}=this.state
    }
    sub=()=>{
     e.preventDefault();
+    const {input1,input2}=this.state
    }
    mul=()=>{
     e.preventDefault();
+    const {input1,input2}=this.state
   }
   div=()=>{
     e.preventDefault(); 
+    const {input1,input2}=this.state
   }
   mod=()=>{
     e.preventDefault();
+    const {input1,input2}=this.state
   }
   clr=()=>{
     e.preventDefault(); 
+    const {input1,input2}=this.state
   }
   
   render() {
