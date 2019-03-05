@@ -6,11 +6,14 @@ import React, { Component } from 'react'
    
      this.state = {
         title : "React basic calculator",
+        input1: "",
+        input2:"",
+        result:"",
      }
    }
    
   render() {
-    const {title}=this.state
+    const {title,input1,input2,result}=this.state
     return (
       <div>
         <h1>{title}</h1>
