@@ -17,7 +17,25 @@ import React, { Component } from 'react'
       [name]:value
     })
    }
-   
+   add=()=>{
+
+   }
+   sub=()=>{
+     
+   }
+   mul=()=>{
+     
+  }
+  div=()=>{
+     
+  }
+  mod=()=>{
+     
+  }
+  clr=()=>{
+     
+  }
+  
   render() {
     const {title,input1,input2,result}=this.state
     return (
