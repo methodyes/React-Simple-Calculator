@@ -17,23 +17,23 @@ import React, { Component } from 'react'
       [name]:value
     })
    }
-   add=()=>{
-
+   add=(e)=>{
+    e.preventDefault();
    }
    sub=()=>{
-     
+    e.preventDefault();
    }
    mul=()=>{
-     
+    e.preventDefault();
   }
   div=()=>{
-     
+    e.preventDefault(); 
   }
   mod=()=>{
-     
+    e.preventDefault();
   }
   clr=()=>{
-     
+    e.preventDefault(); 
   }
   
   render() {
@@ -69,7 +69,7 @@ import React, { Component } from 'react'
               <button onClick={this.clr}> C </button>
             </div>
             <div>
-              <h2></h2>
+              <h2>{result}</h2>
             </div>
          
         </form>
