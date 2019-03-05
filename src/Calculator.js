@@ -11,6 +11,12 @@ import React, { Component } from 'react'
         result:"",
      }
    }
+   onChangeBtn=(e)=>{
+    const {name,value}=e.target
+    this.setState({
+      [name]:value
+    })
+   }
    
   render() {
     const {title,input1,input2,result}=this.state
